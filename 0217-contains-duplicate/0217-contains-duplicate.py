@@ -8,3 +8,6 @@ class Solution:
             seen.add(num)
         
         return False
+
+# Can also use this Optimal Solution directly i.e
+#           return len(nums) != len(set(nums))    ---> return True if contain Duplicate else return False if not contain Duplicate
